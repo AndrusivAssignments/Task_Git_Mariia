@@ -10,7 +10,11 @@ def calculator():
             return num1 + num2 
         elif symbol == '-':
             return num1 - num2
+        elif symbol == '*': 
+            return num1 * num2
+        elif symbol == '/':
+            return num1 / num2
     else:
-        print("Invalid operator. Please use either + or -.")
+        print("Invalid operator")
         return None
 print(calculator())
