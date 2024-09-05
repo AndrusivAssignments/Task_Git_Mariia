@@ -10,9 +10,16 @@ def calculator():
             return num1 + num2 
         elif symbol == '-':
             return num1 - num2
+<<<<<<< HEAD
         elif symbol == '*':
             return num1 * num2
+=======
+        elif symbol == '*': 
+            return num1 * num2
+        elif symbol == '/':
+            return num1 / num2
+>>>>>>> feat-div
     else:
-        print("Invalid operator. Please use either + or -.")
+        print("Invalid operator")
         return None
 print(calculator())
